@@ -7,8 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand"href="#" title="Blog de Jm">Blob De Jm</a>
+			<ul class="nav navbar-nav">
+				<li><%= link_to "Todos los Estados", estados_path%></li>
+			</ul>
+		</div>
+	</nav>
+<div class="container">
 <%= yield %>
+</div>
+
 
 </body>
 </html>

@@ -1,3 +1,23 @@
 // Place all the styles related to the estados controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.estado1{
+	border-bottom: solid 1px #CCC;
+	padding:5px 0;
+}
+
+.estado1 p{
+	margin:4px 0;
+}
+
+.estado1 .admin{
+	display:none;
+}
+
+.estado1.hover .admin{
+	display:inline;
+}
+
+.estado1.hover{
+	background:#F0F0F0;
+}
